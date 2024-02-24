@@ -1,10 +1,9 @@
-#include "main.h"
+#include <unistd.h>
 
 /**
- * main - Entry point
- * Return: Always 0
+ * main - This is a function that prints follwed by a new line
+ * Return: On success 0
  */
-
 int main(void)
 {
 	_putchar('_');
@@ -16,5 +15,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
